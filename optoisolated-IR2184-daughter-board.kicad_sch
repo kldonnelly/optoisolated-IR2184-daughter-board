@@ -1201,6 +1201,66 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 115.57 67.31) (xy 128.27 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2724cec7-135b-47c0-8d6d-4df09b35f9c6")
+	)
+	(wire
+		(pts
+			(xy 128.27 67.31) (xy 128.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38228054-c9e8-4eb8-b0a8-ef127549b4a2")
+	)
+	(wire
+		(pts
+			(xy 168.91 83.82) (xy 147.32 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc275b9-007e-43eb-8377-e5a389958008")
+	)
+	(wire
+		(pts
+			(xy 154.94 71.12) (xy 161.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46592e6d-434a-4f8f-8a8b-8500e6597cc2")
+	)
+	(wire
+		(pts
+			(xy 128.27 58.42) (xy 168.91 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a1bc46-d082-485b-bfbe-1aed01d23cca")
+	)
+	(wire
+		(pts
+			(xy 147.32 83.82) (xy 147.32 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd88d97-a4f7-418a-8193-d782f6f8dbb4")
+	)
 	(symbol
 		(lib_id "Driver_FET:IR2184")
 		(at 168.91 71.12 0)
@@ -1229,7 +1289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 168.91 71.12 0)
 			(effects
 				(font
@@ -1292,7 +1352,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:6N137")
-		(at 147.32 74.93 0)
+		(at 147.32 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1301,7 +1361,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f219c21-aeb7-49ee-849e-54852e94b6b1")
 		(property "Reference" "U2"
-			(at 150.3365 62.23 0)
+			(at 150.3365 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,7 +1370,7 @@
 			)
 		)
 		(property "Value" "6N137"
-			(at 150.3365 64.77 0)
+			(at 150.3365 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,17 +1378,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 147.32 87.63 0)
+		(property "Footprint" "Package_DIP:SMDIP-8_W7.62mm"
+			(at 147.32 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0940EN"
-			(at 125.73 60.96 0)
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1396,7 @@
 			)
 		)
 		(property "Description" "Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 10, max 7V VCC, DIP-8"
-			(at 147.32 74.93 0)
+			(at 147.32 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,7 +1463,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B8B-EH-A_1x08_P2.50mm_Vertical"
 			(at 110.49 74.93 0)
 			(effects
 				(font
